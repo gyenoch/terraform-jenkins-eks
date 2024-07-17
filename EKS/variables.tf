@@ -12,3 +12,8 @@ variable "public_subnets" {
   description = "Subnets CIDR"
   type        = list(string)
 }
+
+variable "kubernetes_version" {
+  default     = "1.30"
+  description = "kubernetes version"
+}
